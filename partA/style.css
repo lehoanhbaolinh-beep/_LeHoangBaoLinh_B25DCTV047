@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f5f5f5;
+    color: #222;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 16px;
+}
+
+.header,
+.toolbar,
+.header-right {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.header {
+    justify-content: space-between;
+    padding: 12px 20px;
+    background: white;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.toolbar input {
+    flex: 1;
+}
+
+input,
+select,
+button {
+    padding: 8px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.card {
+    width: calc((100% - 32px) / 3);
+    /* 3 cột, trừ 2 khoảng cách gap */
+    background: white;
+    padding: 14px;
+    border-radius: 8px;
+}
+
+.card .actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.fav.active {
+    background: #ffe3e3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.error {
+    color: red;
+    min-height: 1em;
+}
+
+.invalid {
+    border-color: red;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Chế độ tối */
+
+:root[data-theme=dark] body {
+    background: #222;
+    color: #eee;
+}
+
+:root[data-theme=dark] .header,
+:root[data-theme=dark] .card {
+    background: #333;
+}
+
+@media (max-width: 700px) {
+    .card {
+        width: 100%;
+    }
+}

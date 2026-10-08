@@ -1,0 +1,11 @@
+[{ "id": "1", "title": "A", "author": "B", "genre": "Thiếu nhi", "year": 1941 },
+    { "id": "2", "title": "C", "author": "D", "genre": "Thiếu nhi", "year": 1997 },
+    { "id": "3", "title": "E", "author": "F", "genre": "Thiếu nhi", "year": 1943 },
+    { "id": "4", "title": "J", "author": "H", "genre": "Công nghệ", "year": 2008 },
+    { "id": "5", "title": "I", "author": "J", "genre": "Công nghệ", "year": 2018 },
+    { "id": "6", "title": "K", "author": "L", "genre": "Công nghệ", "year": 2015 },
+    { "id": "7", "title": "M", "author": "N", "genre": "Khoa học", "year": 2011 },
+    { "id": "8", "title": "O", "author": "P", "genre": "Khoa học", "year": 2001 },
+    { "id": "9", "title": "U", "author": "R", "genre": "Khoa học", "year": 2016 },
+    { "id": "10", "title": "S", "author": "T", "genre": "Khoa học", "year": 2011 }
+]

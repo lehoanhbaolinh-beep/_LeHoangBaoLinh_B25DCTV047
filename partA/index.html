@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Thư viện lớp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Thư viện lớp</h1>
+        <div class="header-right"><span>Yêu thích: <strong id="fav-count">0</strong></span>
+            <button id="theme-btn" type="button">🌓</button></div>
+    </header>
+    <main>
+        <section class="toolbar" aria-label="Công cụ">
+            <input id="search" type="search" placeholder="Tìm theo tên sách...">
+            <select id="genre-select"></select></section>
+        <p id="status" role="status"></p>
+        <section id="book-list" class="grid" aria-label="Danh sách sách"></section>
+        <section class="form-section">
+            <h2>Thêm sách mới</h2>
+            <form id="book-form" novalidate>
+                <label>Tên sách<input name="title"><small class="error"></small></label>
+                <label>Tác giả<input name="author"><small class="error"></small></label>
+                <label>Thể loại<select name="genre"></select><small class="error"></small></label>
+                <label>Năm xuất bản<input name="year" type="number"><small class="error"></small></label>
+                <button type="submit">Thêm sách</button></form>
+        </section>
+    </main>
+    <footer>© Thư viện lớp</footer>
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
